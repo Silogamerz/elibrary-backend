@@ -1,9 +1,3 @@
-const cors = require('cors');
-
-app.use(cors({
-  origin: 'https://elibrary-frontend.vercel.app',
-  credentials: true
-}));
 // server.js
 require('dotenv').config();
 const express = require('express');
